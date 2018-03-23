@@ -1,0 +1,94 @@
+body {
+  font-family: 'VT323', monospace;
+  color: white;
+}
+
+.nav-title {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.header {
+  font-size: 2.5em;
+}
+
+.scoreboard {
+  font-size: 2.5em;
+}
+
+.numberbox {
+  margin-top: 90px;
+}
+
+.numberbox p {
+  font-size: 3em;
+  display: block;
+}
+
+.crystals {
+  margin-top: 60px;
+}
+
+.crystals img {
+  width: 100px;
+  display: inline-block;
+  margin: 60px;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 7em;
+  text-align: center;
+}
+
+button, button:active, button:hover, button:visited, button:focus  {
+  border: none;
+  background: none;
+  border-style: none;
+  outline: none;
+}
+
+.glyphicon, .glyphicon-info-sign {
+  font-size: 15px;
+}
+
+.modal-content {
+  padding: 30px;
+  font-size: 0.75em;
+  text-align: center;
+  color: black;
+}
+
+
+@-webkit-keyframes hvr-pop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+@keyframes hvr-pop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+.hvr-pop {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+.hvr-pop:hover, .hvr-pop:focus, .hvr-pop:active {
+  -webkit-animation-name: hvr-pop;
+  animation-name: hvr-pop;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
